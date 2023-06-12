@@ -8,6 +8,9 @@ This is a temporary script file.
 import numpy as np
 import pickle
 import streamlit as st
+from sklearn.model_selection import train_test_split 
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree
 
 # Loading the Model
 loaded_model = pickle.load(open('model.sav', 'rb'))
