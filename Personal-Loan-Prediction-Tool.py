@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Loading the Model
-loaded_model = pickle.load(open('C://Users//Ilone//02. DATA MODELLING//model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Ilone/Documents/GitHub/DAMOD-UAS/model.sav', 'rb'))
 
 # Making the Predictive Function
 def loan_pred(input_data):
